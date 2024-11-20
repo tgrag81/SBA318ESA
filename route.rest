@@ -1,0 +1,28 @@
+GET http://localhost:1906/subscribers
+
+###
+
+
+GET http://localhost:1906/subscribers
+
+###
+
+POST http://localhost:1906/subscribers
+
+Content-Type: application/json
+
+{"name" : "Terence Gragston",
+"subscribedToChannel": " Node Express Application"}
+###
+
+DELETE http://localhost:1906/subscribers/
+
+###
+
+PATCH  http://localhost:1906/subscribers/
+
+Content-Type: application/json
+
+{"name": "New Name"
+
+}

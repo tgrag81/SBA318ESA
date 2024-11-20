@@ -2,6 +2,22 @@
   "dependencies": {
     "body-parser": "^1.20.3",
     "express": "^4.21.1",
-    "nodemon": "^3.1.7"
+    "mongoose": "^8.8.2"
+  },
+  "name": "sba318esa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.9.1",
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.7",
+    "typescript": "^5.6.3"
   }
 }
